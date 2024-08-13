@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-Jquery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+    <div class="container">
+    <header>
+        <h1>LISTA DAS TAREFAS DO DIA!!</h1>
+        <button type="submit" class="botao-mostrar-mais" placeholder="Mostrar a Lista">↓</button>
+    </header>
+    <form>
+        <input type="text" id="nome-tarefa" placeholder="Nome da Tarefa"/>
+        <button id="adicionar-tarefa" type="submit" class="adicionar" >Adicionar +</button>
+        <button type="reset" class="resetar" id="reset">Resetar</button>
+    </form>
+    
+    <ul>
+        <div class="tarefas">
+        <li class="tarefa-feita" id="tarefa-feita"></li>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

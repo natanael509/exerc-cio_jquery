@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 500px;
+    width: 100%;
+}
+
+body{
+    background-color: rgba(30, 53, 1, 0.329);
+    margin-top:20px;
+    margin-left: 700px;
+}
+
+header{
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 100%;
+    padding: 16px;
+    border-bottom: 2px solid #000 ;
+}
+
+.botao-mostrar-mais{
+    background-color:rgba(30, 53, 1, 0);
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+}
+
+form{
+    background-color: rgba(30, 53, 1, 0.329);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+input,
+button{
+    margin-right: 30px;
+    background-color: aliceblue;
+    border: none;
+    padding: 8px;
+}
+
+.adicionar{
+    margin-left: 38px;
+    background-color: rgba(122, 219, 3, 0.76);
+    cursor: pointer;
+}
+
+.resetar{
+    background-color: rgba(221, 0, 0, 0.63);
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+.feito {
+    text-decoration: line-through;
+}
